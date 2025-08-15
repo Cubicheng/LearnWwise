@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "GameAudio101_WwiseProject",
+   "GUID": "{2AEEE412-B21F-42CE-8513-DD4FCB8D6761}",
+   "Generator": "2025.1.0.8897"
+  },
+  "CacheRoot": "../../../../GameAudio101_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{A29ACC7D-D35F-43CD-99D5-46E498F8C360}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../GameAudio101_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{63D3BD59-B2CB-42EF-ADB3-ED3975A45DF5}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../GameAudio101_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{7EB5C96A-D9F1-455D-984E-8A811C339200}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{3A68A175-8562-A942-506C-31AAA3AA9A1F}"
+ }
+}

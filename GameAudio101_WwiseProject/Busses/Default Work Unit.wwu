@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5BED30DA-F63B-4375-A810-52857B7DC476}" SchemaVersion="131">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{5BED30DA-F63B-4375-A810-52857B7DC476}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{C5975CEA-D12D-4391-B806-9B6946F80F42}" WorkUnitID="{522170FA-1722-4BC0-9204-3BF9A339518B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{7206C2BB-A450-4B89-BCA4-49A6B6A18D04}">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="TunnuelReverb" ID="{C4E3C6FD-EEEB-4313-AECD-D28B07821FA9}" WorkUnitID="{5BED30DA-F63B-4375-A810-52857B7DC476}"/>
+								</Reference>
+							</ReferenceList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Bgm" ID="{3B4A99F2-4291-4B82-AEAA-5522921A5935}"/>
+									<DuckingParam>
+										<Volume>-2</Volume>
+										<FadeInTime>0.5</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Bgm" ID="{3B4A99F2-4291-4B82-AEAA-5522921A5935}"/>
+						<Bus Name="Reverb" ID="{3C288454-70F7-4FC9-B82C-E5B69130EB56}">
+							<ChildrenList>
+								<AuxBus Name="TunnuelReverb" ID="{C4E3C6FD-EEEB-4313-AECD-D28B07821FA9}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Tunnel_Reverb" ID="{BC67E481-1445-4587-A732-2D31CCC926FD}"/>
+												<StateGroupInfo Name="" ID="{37DC3599-7B71-4419-938C-D7D5513801F4}" ShortID="119259002"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Off" ID="{C7BD39FB-7DA2-4122-8A42-7BABF28CE02B}"/>
+												<CustomState Name="" ID="{51D3661C-EF49-4935-803C-275349C9E136}" ShortID="283339787">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="On" ID="{BB66F1FB-AA58-48F0-A09C-004D3A135A1F}"/>
+												<CustomState Name="" ID="{06AA1055-7D20-4DED-A5B3-00E5A4CD3C56}" ShortID="471961196"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{4841C612-5907-459D-98D0-16C4FF694AAE}" ShortID="1053061990">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+												<StateInfo>
+													<CustomStateList>
+														<CustomState>
+															<StateRef Name="Off" ID="{C7BD39FB-7DA2-4122-8A42-7BABF28CE02B}"/>
+															<CustomState Name="" ID="{78BD0F95-DFE6-4DD8-94C4-E775D18D7AC1}" ShortID="70598306"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="On" ID="{BB66F1FB-AA58-48F0-A09C-004D3A135A1F}"/>
+															<CustomState Name="" ID="{70F5F380-1261-494F-B656-5295E141A132}" ShortID="839024967"/>
+														</CustomState>
+													</CustomStateList>
+												</StateInfo>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Room1Reverb" ID="{1B923D01-11EB-40A1-9F08-30653CEEC7B8}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{7491FC19-DF61-48DD-96D4-29AF364A70E3}" ShortID="823702660">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Room2Reverb" ID="{CB158E0D-1F06-4618-88B3-40E083B85A6E}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{AA951FA3-3279-4270-B268-6378B70ABFFF}" ShortID="502376590">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Medium_Room1" ID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

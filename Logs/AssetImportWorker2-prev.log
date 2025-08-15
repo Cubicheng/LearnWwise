@@ -1,0 +1,2131 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/UnityProjects/GameAudio101
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+4990
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/UnityProjects/GameAudio101
+D:/UnityProjects/GameAudio101
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17504]  Target information:
+
+Player connection [17504]  * "[IP] 192.168.213.6 [Port] 0 [Flags] 2 [Guid] 1830210722 [EditorId] 1830210722 [Version] 1048832 [Id] WindowsEditor(7,Cubicheng) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17504] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17504] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 22.73 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/GameAudio101/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 4GB Laptop GPU (ID=0x25ab)
+    Vendor:   NVIDIA
+    VRAM:     3978 MB
+    Driver:   31.0.15.2783
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005386 seconds.
+- Loaded All Assemblies, in  0.402 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.396 seconds
+Domain Reload Profiling: 795ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (144ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (124ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (396ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.140 seconds
+Refreshing native plugins compatible for Editor in 12.16 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 17.52 ms, found 5 plugins.
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.082 seconds
+Domain Reload Profiling: 2210ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (840ms)
+		LoadAssemblies (599ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (250ms)
+			BuildScriptInfoCaches (76ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1082ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (910ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (603ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 15.05 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6605 unused Assets / (4.3 MB). Loaded Objects now: 7235.
+Memory consumption went from 163.7 MB to 159.4 MB.
+Total: 10.455500 ms (FindLiveObjects: 0.636300 ms CreateObjectMapping: 0.668000 ms MarkObjects: 6.315700 ms  DeleteObjects: 2.833600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6278.837882 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png
+  artifactKey: Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png using Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39d498fb1af6f178bd2e2ef7c7494729') in 0.3359824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground.unity
+  artifactKey: Guid(707acc8dffb72b144bb1ffbe1c965f3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground.unity using Guid(707acc8dffb72b144bb1ffbe1c965f3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c32a2cefdb6dc4ef10e229b7f3d5958') in 0.0343156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Wwise/Timeline/README.md
+  artifactKey: Guid(cce1afcfaebfe7b41bdeef3aefe8fb73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Timeline/README.md using Guid(cce1afcfaebfe7b41bdeef3aefe8fb73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb1a5e9899e8486ad28af8a36f91d854') in 0.015155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
+  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '287143219fa8bf2152dd64ea912fb33c') in 0.0417364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StarterAssets/Settings/Ultra_PipelineAsset.asset
+  artifactKey: Guid(8b79b977e86dc420c9a4b7b6c05a74a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Settings/Ultra_PipelineAsset.asset using Guid(8b79b977e86dc420c9a4b7b6c05a74a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e79a8aa3bfce684a1082ce9a090cf56') in 0.0494176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Wwise/MonoBehaviour/package.json
+  artifactKey: Guid(63aa283b17ba7d440942acb0c5001967) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/package.json using Guid(63aa283b17ba7d440942acb0c5001967) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59ccaadf55fbcd2abd4857223fb1755f') in 0.0138664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8256f893b9355c44841c455170ac5940') in 0.0144818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Wwise/MonoBehaviour/CHANGELOG.md
+  artifactKey: Guid(591859df0db04c149b7b6251845954c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/CHANGELOG.md using Guid(591859df0db04c149b7b6251845954c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3b2b98d042b5d7334aee2e11c440a14') in 0.0152727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '278ea1040ecf668b478c80335640b7b9') in 0.0119551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9fa3958d555290191931ff18f2ff4e4') in 0.0194868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs
+  artifactKey: Guid(55919ac34a26952479f3fc91f777b2fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs using Guid(55919ac34a26952479f3fc91f777b2fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffa2f149eb71dcdec9b7001d0f6b622f') in 0.0141953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbab8d6a3245ddb219751aca657e7655') in 0.0143416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StarterAssets/Settings/Medium_PipelineAsset.asset
+  artifactKey: Guid(e00893132ee3140498fd2709faa1a711) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Settings/Medium_PipelineAsset.asset using Guid(e00893132ee3140498fd2709faa1a711) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6dbd62cc916a644b16a71ddce4364e74') in 0.0254585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Wwise/Timeline/CHANGELOG.md
+  artifactKey: Guid(10460ace0b3c7ed4b8da69cc6150092b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Timeline/CHANGELOG.md using Guid(10460ace0b3c7ed4b8da69cc6150092b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95184add48e84b2df5aa0f8894ee3c03') in 0.0112998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StarterAssets/Environment/Scripts/StairFootStepTrigger.cs
+  artifactKey: Guid(004262b423cba98458eef2551888e4bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Environment/Scripts/StairFootStepTrigger.cs using Guid(004262b423cba98458eef2551888e4bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d60d34b9342a54936ad0a3b60c39096') in 0.0124299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StarterAssets/Settings/Low_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(44b37c8f6729f41cfac615998e7cc9f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Settings/Low_PipelineAsset_ForwardRenderer.asset using Guid(44b37c8f6729f41cfac615998e7cc9f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a65df2e95671f5b4c635969a837f092e') in 0.0374134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/ScriptableObjects/Mac.asset
+  artifactKey: Guid(41661a4fa4d24704ea1205fb9742c4f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/Mac.asset using Guid(41661a4fa4d24704ea1205fb9742c4f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a09dcd4b31e2b07d405fe2eb87bebcde') in 0.0180239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.729204 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG
+  artifactKey: Guid(44a17a5b205fcd349a24700e6f5615bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG using Guid(44a17a5b205fcd349a24700e6f5615bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dfeb3a01a2d0d0994f6ed7a55b3efbb') in 0.2055843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkRoomPortalObstruction.cs
+  artifactKey: Guid(5436db41025a76e48a0ed3f0b38f30f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkRoomPortalObstruction.cs using Guid(5436db41025a76e48a0ed3f0b38f30f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '780ea26e62c73fa0c383433a3303a643') in 0.013896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Wwise/MonoBehaviour/Editor/AkAmbientInspector.cs
+  artifactKey: Guid(06ea6ab897527864b96eefa1a17c219f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Editor/AkAmbientInspector.cs using Guid(06ea6ab897527864b96eefa1a17c219f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5836a55332af06f9f5602cea2fbe095a') in 0.0144688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkListenerDistanceProbe.cs
+  artifactKey: Guid(9e390d2d6a8bc0b428ad340150b736f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkListenerDistanceProbe.cs using Guid(9e390d2d6a8bc0b428ad340150b736f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '896fb24eb108e26d4e42ab45e0ed8fe4') in 0.0160928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Wwise/MonoBehaviour/Editor/AkRadialEmitterInspector.cs
+  artifactKey: Guid(11379a921ccf0da4aba9573a6dacd807) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Editor/AkRadialEmitterInspector.cs using Guid(11379a921ccf0da4aba9573a6dacd807) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2f7c7cb248e2ff2750c4085f46bb9f4') in 0.0168672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wwise/API/Editor/AkSoundBankDirectoryWatcher.cs
+  artifactKey: Guid(894a47cddc89a2549921ccd399975bbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/AkSoundBankDirectoryWatcher.cs using Guid(894a47cddc89a2549921ccd399975bbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '027c80129319e0e36924172841dd6fd5') in 0.017048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wwise/ScriptableObjects/Event/C1EA2D33-B369-4A8F-ACFF-AEE6CF8D5B8F.asset
+  artifactKey: Guid(b4e401ee1d0e2c24f90a1073c6d5a5a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/Event/C1EA2D33-B369-4A8F-ACFF-AEE6CF8D5B8F.asset using Guid(b4e401ee1d0e2c24f90a1073c6d5a5a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96f115d1ead6e3ea732904461d511d5f') in 0.0283109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseTreeWAAPIDataSource.cs
+  artifactKey: Guid(0b80c35e8d8952747a143b4f5e20151d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/AkWwiseTreeWAAPIDataSource.cs using Guid(0b80c35e8d8952747a143b4f5e20151d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a2b0b65d2fb9f61c2211fad2ecb6b0d') in 0.0176032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wwise/ScriptableObjects/SwitchGroup/DB5BAC1B-4FC5-4A4C-800A-CEED06FF1393.asset
+  artifactKey: Guid(a40e95f7272dc8c4bbcd4b4dc3a2d07d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/SwitchGroup/DB5BAC1B-4FC5-4A4C-800A-CEED06FF1393.asset using Guid(a40e95f7272dc8c4bbcd4b4dc3a2d07d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '186e1413f252c8ab9adbe35d64657f81') in 0.0231915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs
+  artifactKey: Guid(4a300d010f57451488aa99000126fbd5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs using Guid(4a300d010f57451488aa99000126fbd5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b03da889d081c56c82df407cc297af4') in 0.0163244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
+  artifactKey: Guid(f712806514868e54699156ec05dcb749) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx using Guid(f712806514868e54699156ec05dcb749) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fc3a8b748f45dc2f5665dd288481877') in 0.0858172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab
+  artifactKey: Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab using Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bad8285ba3b6e3fd1b7064d12f9bc455') in 0.0500841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseTreeViewItem.cs
+  artifactKey: Guid(2f28b53486cde2c4abf5f0a5aac3e2b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/AkWwiseTreeViewItem.cs using Guid(2f28b53486cde2c4abf5f0a5aac3e2b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08daef5f75ef7d841e15e6f784e54f14') in 0.0168385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkXboxOneUtils.cs
+  artifactKey: Guid(86abd4f9d28954f43ac4a898bf399711) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkXboxOneUtils.cs using Guid(86abd4f9d28954f43ac4a898bf399711) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '068449d788623315631d69c7b23482cd') in 0.0151756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs
+  artifactKey: Guid(f2cb8c4d669392748bb924209de33b85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs using Guid(f2cb8c4d669392748bb924209de33b85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db69aba9c0b3bd3ff3b591b8be8a6d0c') in 0.0159789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkEarlyReflections.cs
+  artifactKey: Guid(9bbfd0b8debc0fb48b31b0a115755803) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkEarlyReflections.cs using Guid(9bbfd0b8debc0fb48b31b0a115755803) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8db4ae330ca1c93f59cf51dcb31d795') in 0.0155078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_TouchZone.prefab
+  artifactKey: Guid(c82978c3789dad44da354dc354c782b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_TouchZone.prefab using Guid(c82978c3789dad44da354dc354c782b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ffa4dcb50976323f3c5800f12b29787') in 0.0296609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237047 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/Ak3dData.cs
+  artifactKey: Guid(5bef1112b780aa44aaf034c9b8bd69e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/Ak3dData.cs using Guid(5bef1112b780aa44aaf034c9b8bd69e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e6082083fa9f516e6f0cb9234234b0a') in 0.0132301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkAudioInterruptionCallbackInfo.cs
+  artifactKey: Guid(35bc104fad59cbe4796e6649fb090243) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkAudioInterruptionCallbackInfo.cs using Guid(35bc104fad59cbe4796e6649fb090243) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6ad29c446ac3aa828aefb0c26b4608c') in 0.0155586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkChannelConfig.cs
+  artifactKey: Guid(fcdda98f32cc3d946b6402b544721df3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkChannelConfig.cs using Guid(fcdda98f32cc3d946b6402b544721df3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d7be87cbd7bc943df8f989fae934d39') in 0.0122452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkAudioSettings.cs
+  artifactKey: Guid(2182c72e1d3e8a345b322b1b6fefb8c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkAudioSettings.cs using Guid(2182c72e1d3e8a345b322b1b6fefb8c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49975e46bd9d42447e1b1a0922e8f66e') in 0.0160993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274717 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkChannelEmitter.cs
+  artifactKey: Guid(a635e80677bd6fa489f02b3ea8f70471) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkChannelEmitter.cs using Guid(a635e80677bd6fa489f02b3ea8f70471) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4231f34d82fbddc34602fe7d24fde630') in 0.0159472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkImageSourceSettings.cs
+  artifactKey: Guid(274f6912f1e51cc408d127fb52d6b00f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkImageSourceSettings.cs using Guid(274f6912f1e51cc408d127fb52d6b00f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7dbae28a53e392930639c1bcd93e924') in 0.0154859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkDurationCallbackInfo.cs
+  artifactKey: Guid(925c351667339a545b5bb8810f7a92a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkDurationCallbackInfo.cs using Guid(925c351667339a545b5bb8810f7a92a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca354cb16e6fbe43bc9416d17ec4a381') in 0.0146676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkGeometryInstanceParams.cs
+  artifactKey: Guid(917dcfda7e87552469a683d4c1e7a42b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkGeometryInstanceParams.cs using Guid(917dcfda7e87552469a683d4c1e7a42b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8db67b6768a8591fd83466af71710979') in 0.0121874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.272052 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkListenerOp.cs
+  artifactKey: Guid(b1bbd87d0b17c4f4a8b28d7fd42fba24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkListenerOp.cs using Guid(b1bbd87d0b17c4f4a8b28d7fd42fba24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1dd280ff71d32019384f1b6d39eada9') in 0.0147803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkObjectInfo.cs
+  artifactKey: Guid(6ed78bfe694c2164586cc7f787e473a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkObjectInfo.cs using Guid(6ed78bfe694c2164586cc7f787e473a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4c8d5db5b1f8b9e6519b9b359bd3382') in 0.0107381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkMIDIWwiseCmd.cs
+  artifactKey: Guid(39bc3cfae6e73244a86773c9ae318ee9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMIDIWwiseCmd.cs using Guid(39bc3cfae6e73244a86773c9ae318ee9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '947094bd6f27ef98bcf3053a3b698f18') in 0.0162528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkMIDINoteAftertouch.cs
+  artifactKey: Guid(21c495f21d09f0541bc716b92f2d175c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMIDINoteAftertouch.cs using Guid(21c495f21d09f0541bc716b92f2d175c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97bc56e79bb1f52d21b5e740360c674b') in 0.0166834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261958 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkOutputSettings.cs
+  artifactKey: Guid(f2f72e337f2c8054baba0f2085bc41ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkOutputSettings.cs using Guid(f2f72e337f2c8054baba0f2085bc41ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a096089405859b0719ad7524fa96faa') in 0.0154092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkSetPositionFlags.cs
+  artifactKey: Guid(3971ca4a5f4906445bfdb04523e670d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkSetPositionFlags.cs using Guid(3971ca4a5f4906445bfdb04523e670d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '095226b2a401cbee12959d863570254c') in 0.0095822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkQueryRTPCValue.cs
+  artifactKey: Guid(10504395f57210245b50cc67d6dcd72d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkQueryRTPCValue.cs using Guid(10504395f57210245b50cc67d6dcd72d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ce1a0f6ea76bc2ad685ff0675a423f6') in 0.01489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkSpatialAudioInitSettings.cs
+  artifactKey: Guid(19acecd3796c5a84dbc2fa15d5a777bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkSpatialAudioInitSettings.cs using Guid(19acecd3796c5a84dbc2fa15d5a777bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '748fd8ee5596a984bac5d9b85403f348') in 0.0150885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.042859 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkTransform.cs
+  artifactKey: Guid(6013258188a2c924e910c7d10804bb6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkTransform.cs using Guid(6013258188a2c924e910c7d10804bb6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1aaf892b99c9767f26595a0a97e83db1') in 0.0162793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Common/AkAudioInputManager.cs
+  artifactKey: Guid(1314995c486f41848b44179f39a3f139) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Common/AkAudioInputManager.cs using Guid(1314995c486f41848b44179f39a3f139) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b5881abe99e089fd573f428938156b7') in 0.0130617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/MsgContext.cs
+  artifactKey: Guid(aed8cd6e19f3a184787b56746bc580ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/MsgContext.cs using Guid(aed8cd6e19f3a184787b56746bc580ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43fe848401f880b4b553c3abc0a23bc2') in 0.0145333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Windows/AkUnitySoundEnginePINVOKE_Windows.cs
+  artifactKey: Guid(ef7b1d7270d57864bb59ceb709aa3582) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Windows/AkUnitySoundEnginePINVOKE_Windows.cs using Guid(ef7b1d7270d57864bb59ceb709aa3582) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '474a7239f9da76d6f8d45aeaa3d0d04c') in 0.0178147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.240633 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Common/AkLogger.cs
+  artifactKey: Guid(96a96f6d03fd7814cb88c4ded7633244) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Common/AkLogger.cs using Guid(96a96f6d03fd7814cb88c4ded7633244) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55eeb36aac64f46fe7a849b0059439bc') in 0.0157038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Windows/AkWindowsBasePathGetter.cs
+  artifactKey: Guid(d30d700ca6d6b9540a772adaa1107cbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Windows/AkWindowsBasePathGetter.cs using Guid(d30d700ca6d6b9540a772adaa1107cbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c4be102fae71d879119f82d985a9304') in 0.0157793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseAcousticTextureReference.cs
+  artifactKey: Guid(cd57841409e017a4198ff3305e0e5b1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseAcousticTextureReference.cs using Guid(cd57841409e017a4198ff3305e0e5b1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a2da241b50dad57d155a2fae5d7e9fe') in 0.0141947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Windows/AkUnitySoundEngine.cs
+  artifactKey: Guid(1b3609d71011e6c4a8dde481008bf440) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Windows/AkUnitySoundEngine.cs using Guid(1b3609d71011e6c4a8dde481008bf440) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5eb02021b135b47d21ff8c7f9331d5e1') in 0.0173891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.219895 seconds.
+  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseBankReference.cs
+  artifactKey: Guid(689c5a3bea26d714bacef85b1abc14e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseBankReference.cs using Guid(689c5a3bea26d714bacef85b1abc14e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e302697aacd109779ea59a3c13b9360') in 0.0160975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseBaseType.cs
+  artifactKey: Guid(3b1e0c2803af4ef43aba54236bf71109) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseBaseType.cs using Guid(3b1e0c2803af4ef43aba54236bf71109) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '496a083843806b8694762328196fb035') in 0.0247358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseBank.cs
+  artifactKey: Guid(565af9d175c19394fad1c2ab37086960) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseBank.cs using Guid(565af9d175c19394fad1c2ab37086960) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9816f0536f200e7ef53218a7c3766e6e') in 0.0151419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs
+  artifactKey: Guid(8012690fe7368d14fa5426136d51aa59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs using Guid(8012690fe7368d14fa5426136d51aa59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78f135201dbd318d5eb04dfc23911b8b') in 0.0160949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184438 seconds.
+  path: Assets/Wwise/MonoBehaviour/Editor/EditorPlatformHelpers/Windows/AkWindowsBuildPreprocessor.cs
+  artifactKey: Guid(4bc5debb63d07bb4ba000565b8fcfebd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Editor/EditorPlatformHelpers/Windows/AkWindowsBuildPreprocessor.cs using Guid(4bc5debb63d07bb4ba000565b8fcfebd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b1a6c74916179e23923b4eceb9e7fac') in 0.0179718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseMediaRefArray.cs
+  artifactKey: Guid(ceea5fb5d45ff5244a6c28b8e26ca6cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseMediaRefArray.cs using Guid(ceea5fb5d45ff5244a6c28b8e26ca6cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aad58d9c63ea38c181e4d90ed81f5768') in 0.0175926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseEventRefArray.cs
+  artifactKey: Guid(aad8a1af379b4fb43affe0128dd8eb53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseEventRefArray.cs using Guid(aad8a1af379b4fb43affe0128dd8eb53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '266066a38e5c226aef5a79f87ed99a59') in 0.0391301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseBusRefArray.cs
+  artifactKey: Guid(b7510847e630e7e49ac4e1d8788a8f42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseBusRefArray.cs using Guid(b7510847e630e7e49ac4e1d8788a8f42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57e5bff2f676ed0fff5189634984c930') in 0.0196821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113898 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseSwitchRefArray.cs
+  artifactKey: Guid(1727c5a9c5dd6134d8a8286ace587e9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseSwitchRefArray.cs using Guid(1727c5a9c5dd6134d8a8286ace587e9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c22747a8653b29169b8cf6059d72a146') in 0.0223493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkReflectionPathInfoArray.cs
+  artifactKey: Guid(ad69e0e4400426b4abcbe1430a7e73a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkReflectionPathInfoArray.cs using Guid(ad69e0e4400426b4abcbe1430a7e73a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1361a774f52d2edfe7df9b97211ca3df') in 0.0264852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkTriangleArray.cs
+  artifactKey: Guid(f375f18a4e3a6ab47953fd35dc1c06d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkTriangleArray.cs using Guid(f375f18a4e3a6ab47953fd35dc1c06d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a9a70ae6c6746b9291778ee010ea7ab') in 0.0260374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkMeter.bundle
+  artifactKey: Guid(c449198572172de49a0b67f96b05d88f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkMeter.bundle using Guid(c449198572172de49a0b67f96b05d88f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f32ec0eaa960d1aa0034f1588a831bdf') in 0.0384901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMasteringSuite.bundle
+  artifactKey: Guid(e92d9518e037c234e9d22038c35db9d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMasteringSuite.bundle using Guid(e92d9518e037c234e9d22038c35db9d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bc2251fa800e8ce2c994e3af9e0152c') in 0.0403157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSynthOne.dll
+  artifactKey: Guid(c594057f8286dd64b95ecc56a8835890) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSynthOne.dll using Guid(c594057f8286dd64b95ecc56a8835890) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04b11fcac32ef5ce20ef2f9a9c24317b') in 0.0207369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/Auro.dll
+  artifactKey: Guid(52bc635be1936f041b0a0476263ce858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/Auro.dll using Guid(52bc635be1936f041b0a0476263ce858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08bb97a67f2417f9ba57fdf610994905') in 0.0194009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkConvolutionReverb.pdb
+  artifactKey: Guid(766d93146447a3a49b021de1e0ab39b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkConvolutionReverb.pdb using Guid(766d93146447a3a49b021de1e0ab39b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a251bf6f7680aeafcb3f23c0a8d8baf0') in 0.0211669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038954 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/McDSP.dll
+  artifactKey: Guid(85b1439857aa2ab4da8c1c05b58d0945) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/McDSP.dll using Guid(85b1439857aa2ab4da8c1c05b58d0945) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b675b02b60e856a54359658853cffc25') in 0.0206461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSidechain.dll
+  artifactKey: Guid(aa47eeb3cae39644a8e64f6593139ef0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSidechain.dll using Guid(aa47eeb3cae39644a8e64f6593139ef0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdb9952b7ccb723cae1139ab8ea322c1') in 0.0477828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedGrain.pdb
+  artifactKey: Guid(eee25f61290cd8b41a8d381cc5c1cb79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedGrain.pdb using Guid(eee25f61290cd8b41a8d381cc5c1cb79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6fa0bbe05a8e81e6ae346d3ea4b2315') in 0.0149144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkMeter.dll
+  artifactKey: Guid(1fb917f21dd7c9a4284e873f9935c3ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkMeter.dll using Guid(1fb917f21dd7c9a4284e873f9935c3ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9910cc64b3fff3295f9f3bc26bdf3a0') in 0.0174995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110456 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/iZotope.dll
+  artifactKey: Guid(d9a565d0b2e3e7a469255524caafcb80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/iZotope.dll using Guid(d9a565d0b2e3e7a469255524caafcb80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7c51118edfecbcdfccb96a89e63d64a') in 0.0231272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Profile/AkUnitySoundEngine.pdb
+  artifactKey: Guid(829d9178589a6ea4a94676c6f044562a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Profile/AkUnitySoundEngine.pdb using Guid(829d9178589a6ea4a94676c6f044562a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4985639e2eb7b5e588158eb8ca42bfd') in 0.0201052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/Plugins/Windows/x86_64/DSP/WwiseProjectDatabase.pdb
+  artifactKey: Guid(9f1290abe0007634a96f11553ea2223c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/Plugins/Windows/x86_64/DSP/WwiseProjectDatabase.pdb using Guid(9f1290abe0007634a96f11553ea2223c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9e05f2ed48eb4d22299c3f6d7b5b4c7') in 0.0180678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkUnitySoundEngine
+  artifactKey: Guid(83ae4f2ffd654fa479077f999e844edc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkUnitySoundEngine using Guid(83ae4f2ffd654fa479077f999e844edc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88ffdb46d8d59dd5aae4585167cc828a') in 0.0209041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.111652 seconds.
+  path: Assets/Wwise/API/Editor/AK.Wwise.Unity.API.Editor.asmdef
+  artifactKey: Guid(b2e82666f1f2d3a408efa621de34bc89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/AK.Wwise.Unity.API.Editor.asmdef using Guid(b2e82666f1f2d3a408efa621de34bc89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c91ab5a5e73a5481708c13fede9c6053') in 0.0198992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wwise/MonoBehaviour/Editor/AkEventInspector.cs
+  artifactKey: Guid(df52877009163f044baedb12df36b6c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Editor/AkEventInspector.cs using Guid(df52877009163f044baedb12df36b6c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1283dfcadd924fe7e0a6e3638dc49361') in 0.0171522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/AK.Wwise.Unity.ProjectDataBase.asmdef
+  artifactKey: Guid(ff059f51acdc6d742ac03eb49ea004ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/AK.Wwise.Unity.ProjectDataBase.asmdef using Guid(ff059f51acdc6d742ac03eb49ea004ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6de69041aa17beab51b70b21229a27b9') in 0.0201188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkRoomPortal.cs
+  artifactKey: Guid(e96dcbb7df134e1488522a80aec8baf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkRoomPortal.cs using Guid(e96dcbb7df134e1488522a80aec8baf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13190e3c1ced64c46cba3a44ea3a1adc') in 0.0170205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wwise/MonoBehaviour/Editor/AkGameObjectInspector.cs
+  artifactKey: Guid(a60dd0dcb8ec4224495b8f01cde4b356) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Editor/AkGameObjectInspector.cs using Guid(a60dd0dcb8ec4224495b8f01cde4b356) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2634dd8c2bbe820706c1451e312d9b82') in 0.0177377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkAudioListener.cs
+  artifactKey: Guid(b6073a3261bf21348b58e8c488760de3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkAudioListener.cs using Guid(b6073a3261bf21348b58e8c488760de3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56361780111637c3e741ecda48616175') in 0.0171166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wwise/ScriptableObjects/State/4F130BFF-4CAE-40B9-8414-3EFD9E020860.asset
+  artifactKey: Guid(8b810acdbe83a6743b66158ad098491b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/State/4F130BFF-4CAE-40B9-8414-3EFD9E020860.asset using Guid(8b810acdbe83a6743b66158ad098491b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8c96b78721481519af3a979f4e37958') in 0.021236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Wwise/API/Editor/WwiseTypes/StateDrawer.cs
+  artifactKey: Guid(29f54456fb5137e418650989fc33c54b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseTypes/StateDrawer.cs using Guid(29f54456fb5137e418650989fc33c54b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab783c37b3a0b453fb21f1b6b77e29b7') in 0.0194628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseComponentPicker.cs
+  artifactKey: Guid(8fb3f4275976c8c409cbfdb2953ed6ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/AkWwiseComponentPicker.cs using Guid(8fb3f4275976c8c409cbfdb2953ed6ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84d278581e3ff1e69482cc220c2fbd25') in 0.0172059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/API/Editor/WwiseTypes/BaseTypeDrawer.cs
+  artifactKey: Guid(7345fe6943bdd0543a53ce165d74d6c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseTypes/BaseTypeDrawer.cs using Guid(7345fe6943bdd0543a53ce165d74d6c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f27dc0ca3727252d8df76a3d44b75ff') in 0.0204879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wwise/Timeline/Runtime/AkTimelineEventTrack.cs
+  artifactKey: Guid(b4986e9b795b53e489f06de1685e060c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Timeline/Runtime/AkTimelineEventTrack.cs using Guid(b4986e9b795b53e489f06de1685e060c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba4273c8082064654ddb5717fc6de3f9') in 0.0169739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Wwise/Timeline/Runtime/AK.Wwise.Unity.Timeline.asmdef
+  artifactKey: Guid(6011358145f5c6541abd776d091f76f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Timeline/Runtime/AK.Wwise.Unity.Timeline.asmdef using Guid(6011358145f5c6541abd776d091f76f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1fd843bd76d1cc8496efc8139dc6f99') in 0.0185689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wwise/API/Editor/PluginActivator/Common/AkPlatformPluginList.cs
+  artifactKey: Guid(8eb4f1460b2bdd74b909e6648f45cc38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/PluginActivator/Common/AkPlatformPluginList.cs using Guid(8eb4f1460b2bdd74b909e6648f45cc38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bde89ee68637accdb05af90d994cfb58') in 0.0183393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wwise/Tools/AddressableInstaller/Editor/AddressableBankPathSetter.cs
+  artifactKey: Guid(209eee7a85d36fe468cd2edb9c3a27f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Tools/AddressableInstaller/Editor/AddressableBankPathSetter.cs using Guid(209eee7a85d36fe468cd2edb9c3a27f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a880d95b4bca588371cc9b780c3bd08') in 0.0171838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkUnitySettingsParser.cs
+  artifactKey: Guid(84e385e2d77d01d46aa38cf8d70d9452) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkUnitySettingsParser.cs using Guid(84e385e2d77d01d46aa38cf8d70d9452) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b6d74137efa5d1666f217ced0db6c3a') in 0.0174033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Wwise/Documentation/Windows/ja/WwiseUnityIntegrationHelp_ja.chm
+  artifactKey: Guid(7697be8785906654392fdeb10a8cc706) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Documentation/Windows/ja/WwiseUnityIntegrationHelp_ja.chm using Guid(7697be8785906654392fdeb10a8cc706) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b49b10fce9e1b5b6b7119d3ad8156ad') in 0.0167119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Wwise/Documentation/Windows/en/WwiseUnityIntegrationHelp_en.chm
+  artifactKey: Guid(47409555a9b4ae241b42520cf39cccb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Documentation/Windows/en/WwiseUnityIntegrationHelp_en.chm using Guid(47409555a9b4ae241b42520cf39cccb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b0720ad198e53f098840642ada81703') in 0.0153176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/API/Editor/PluginActivator/Common/AkPluginActivatorConstants.cs
+  artifactKey: Guid(6468da3bf6ee56449970be0e2a394710) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/PluginActivator/Common/AkPluginActivatorConstants.cs using Guid(6468da3bf6ee56449970be0e2a394710) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e18bf0089505b68161516c2d77aa4ac') in 0.0153367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseProjectInfo.cs
+  artifactKey: Guid(71ba202aa24bcca41a0fbdac34cf82a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/AkWwiseProjectInfo.cs using Guid(71ba202aa24bcca41a0fbdac34cf82a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9394d2fb7d7cbdd5a972ef52afc7b502') in 0.0179507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Wwise/API/Editor/PluginActivator/Common/AkPluginActivator.cs
+  artifactKey: Guid(3a3c4223364d6e4468cefb436a83f784) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/PluginActivator/Common/AkPluginActivator.cs using Guid(3a3c4223364d6e4468cefb436a83f784) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb3898a585f105af820fc9a638166ce6') in 0.0177014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnter.cs
+  artifactKey: Guid(20d2394c8c9f599478f1bbca7b55ca13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnter.cs using Guid(20d2394c8c9f599478f1bbca7b55ca13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8fdd23d29b68d9e6a71b3b147651501') in 0.0166335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/ScriptableObjects/Event/ACE52E3B-4A0D-48E4-AD32-A9D30220C6A4.asset
+  artifactKey: Guid(a2a8bb264ddecd0469d0502a35e0f873) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/Event/ACE52E3B-4A0D-48E4-AD32-A9D30220C6A4.asset using Guid(a2a8bb264ddecd0469d0502a35e0f873) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8942667671a519b5174e0058e4df540') in 0.0188519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.704 seconds
+Refreshing native plugins compatible for Editor in 8.27 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.829 seconds
+Domain Reload Profiling: 1530ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (364ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (155ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (830ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (658ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (474ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 20.55 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6604 unused Assets / (3.7 MB). Loaded Objects now: 7252.
+Memory consumption went from 145.7 MB to 142.0 MB.
+Total: 11.739200 ms (FindLiveObjects: 1.290000 ms CreateObjectMapping: 1.626800 ms MarkObjects: 6.205400 ms  DeleteObjects: 2.614900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.706 seconds
+Refreshing native plugins compatible for Editor in 8.76 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.840 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (457ms)
+		LoadAssemblies (365ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (673ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 15.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.6 MB). Loaded Objects now: 7254.
+Memory consumption went from 144.0 MB to 140.4 MB.
+Total: 10.525400 ms (FindLiveObjects: 0.553600 ms CreateObjectMapping: 0.399600 ms MarkObjects: 7.178600 ms  DeleteObjects: 2.391900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.859 seconds
+Refreshing native plugins compatible for Editor in 8.37 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1599ms
+	BeginReloadAssembly (282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 15.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.9 MB). Loaded Objects now: 7256.
+Memory consumption went from 144.0 MB to 140.1 MB.
+Total: 10.183900 ms (FindLiveObjects: 0.693400 ms CreateObjectMapping: 0.632600 ms MarkObjects: 6.214100 ms  DeleteObjects: 2.642000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.705 seconds
+Refreshing native plugins compatible for Editor in 9.21 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.837 seconds
+Domain Reload Profiling: 1537ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (460ms)
+		LoadAssemblies (368ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (837ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (685ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (506ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 17.47 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.9 MB). Loaded Objects now: 7258.
+Memory consumption went from 144.0 MB to 140.2 MB.
+Total: 12.770800 ms (FindLiveObjects: 1.115300 ms CreateObjectMapping: 0.799200 ms MarkObjects: 7.732400 ms  DeleteObjects: 3.121900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.774 seconds
+Refreshing native plugins compatible for Editor in 11.31 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.759 seconds
+Domain Reload Profiling: 1528ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (171ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 14.17 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.7 MB). Loaded Objects now: 7260.
+Memory consumption went from 144.1 MB to 140.4 MB.
+Total: 10.532800 ms (FindLiveObjects: 0.717900 ms CreateObjectMapping: 0.738500 ms MarkObjects: 6.712600 ms  DeleteObjects: 2.361800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.706 seconds
+Refreshing native plugins compatible for Editor in 10.31 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1577ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (366ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (155ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (876ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (527ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 15.56 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.7 MB). Loaded Objects now: 7262.
+Memory consumption went from 144.1 MB to 140.4 MB.
+Total: 10.332600 ms (FindLiveObjects: 0.934300 ms CreateObjectMapping: 0.465000 ms MarkObjects: 6.567600 ms  DeleteObjects: 2.363400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.698 seconds
+Refreshing native plugins compatible for Editor in 9.94 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. WThe project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.759 seconds
+Domain Reload Profiling: 1451ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (455ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (760ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 15.08 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (4.2 MB). Loaded Objects now: 7264.
+Memory consumption went from 147.9 MB to 143.7 MB.
+Total: 12.403800 ms (FindLiveObjects: 0.734300 ms CreateObjectMapping: 0.701300 ms MarkObjects: 7.721800 ms  DeleteObjects: 3.244700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.678 seconds
+Refreshing native plugins compatible for Editor in 8.22 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.844 seconds
+Domain Reload Profiling: 1519ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (845ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (691ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 16.16 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.6 MB). Loaded Objects now: 7266.
+Memory consumption went from 147.8 MB to 144.3 MB.
+Total: 12.092600 ms (FindLiveObjects: 1.196800 ms CreateObjectMapping: 1.041700 ms MarkObjects: 7.555200 ms  DeleteObjects: 2.297000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.735 seconds
+Refreshing native plugins compatible for Editor in 8.72 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.849 seconds
+Domain Reload Profiling: 1580ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (849ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (703ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (521ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 14.01 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.8 MB). Loaded Objects now: 7268.
+Memory consumption went from 147.9 MB to 144.2 MB.
+Total: 10.791800 ms (FindLiveObjects: 0.914300 ms CreateObjectMapping: 0.440400 ms MarkObjects: 6.743700 ms  DeleteObjects: 2.691500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.755 seconds
+Refreshing native plugins compatible for Editor in 8.54 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.860 seconds
+Domain Reload Profiling: 1613ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (509ms)
+		LoadAssemblies (409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (162ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (861ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (694ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (499ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 13.83 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.5 MB). Loaded Objects now: 7270.
+Memory consumption went from 147.9 MB to 144.5 MB.
+Total: 9.492900 ms (FindLiveObjects: 0.677300 ms CreateObjectMapping: 0.511800 ms MarkObjects: 6.142300 ms  DeleteObjects: 2.158900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.692 seconds
+Refreshing native plugins compatible for Editor in 10.17 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1519ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (470ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (831ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (679ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (484ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 12.77 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.3 MB). Loaded Objects now: 7272.
+Memory consumption went from 147.9 MB to 144.6 MB.
+Total: 8.827600 ms (FindLiveObjects: 0.792500 ms CreateObjectMapping: 0.410100 ms MarkObjects: 5.806400 ms  DeleteObjects: 1.816800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.729 seconds
+Refreshing native plugins compatible for Editor in 9.15 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.862 seconds
+Domain Reload Profiling: 1586ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (863ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (714ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 20.18 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (4.2 MB). Loaded Objects now: 7274.
+Memory consumption went from 147.9 MB to 143.7 MB.
+Total: 11.487400 ms (FindLiveObjects: 0.843700 ms CreateObjectMapping: 0.792600 ms MarkObjects: 6.351200 ms  DeleteObjects: 3.497800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.366 seconds
+Refreshing native plugins compatible for Editor in 11.13 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.949 seconds
+Domain Reload Profiling: 2306ms
+	BeginReloadAssembly (280ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (965ms)
+		LoadAssemblies (825ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (246ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (950ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (762ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (545ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 17.50 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.7 MB). Loaded Objects now: 7276.
+Memory consumption went from 147.9 MB to 144.2 MB.
+Total: 10.542500 ms (FindLiveObjects: 0.679200 ms CreateObjectMapping: 0.424000 ms MarkObjects: 6.866700 ms  DeleteObjects: 2.570900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.695 seconds
+Refreshing native plugins compatible for Editor in 10.26 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.832 seconds
+Domain Reload Profiling: 1522ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (163ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (833ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (504ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 18.85 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.4 MB). Loaded Objects now: 7278.
+Memory consumption went from 147.9 MB to 144.6 MB.
+Total: 11.319900 ms (FindLiveObjects: 1.282000 ms CreateObjectMapping: 0.885500 ms MarkObjects: 6.906500 ms  DeleteObjects: 2.244200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.701 seconds
+Refreshing native plugins compatible for Editor in 9.69 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+ill be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json.meta
+LogWwiseProjectDatabase Log: Unknown file. Not in a platform. Will be ignored: D:/UnityProjects/GameAudio101/Assets/StreamThe project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.851 seconds
+Domain Reload Profiling: 1547ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (365ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (160ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (699ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (508ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 18.95 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (4.3 MB). Loaded Objects now: 7280.
+Memory consumption went from 148.0 MB to 143.7 MB.
+Total: 11.766200 ms (FindLiveObjects: 0.805800 ms CreateObjectMapping: 0.822500 ms MarkObjects: 6.797400 ms  DeleteObjects: 3.338500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.693 seconds
+Refreshing native plugins compatible for Editor in 9.65 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.862 seconds
+Domain Reload Profiling: 1551ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (863ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (520ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 20.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (5.0 MB). Loaded Objects now: 7282.
+Memory consumption went from 148.0 MB to 142.9 MB.
+Total: 13.968100 ms (FindLiveObjects: 0.866000 ms CreateObjectMapping: 0.839600 ms MarkObjects: 7.488000 ms  DeleteObjects: 4.771300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.178 seconds
+Refreshing native plugins compatible for Editor in 11.79 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.071 seconds
+Domain Reload Profiling: 2239ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (788ms)
+		LoadAssemblies (705ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (192ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1071ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (870ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (631ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 14.07 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6603 unused Assets / (3.8 MB). Loaded Objects now: 7284.
+Memory consumption went from 148.0 MB to 144.2 MB.
+Total: 9.866800 ms (FindLiveObjects: 0.864400 ms CreateObjectMapping: 0.409900 ms MarkObjects: 5.724100 ms  DeleteObjects: 2.866300 ms)
+
+Prepare: number of updated asset objects reloaded= 0

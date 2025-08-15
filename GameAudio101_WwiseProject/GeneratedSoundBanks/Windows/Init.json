@@ -1,0 +1,226 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "168",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{994313FB-0F06-4A5C-5436-85432D6F8B6E}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "702543456",
+       "Name": "Tunnel1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Tunnel1",
+       "GUID": "{CC44B890-9865-4157-965F-86FED27BC4C6}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "1904434771",
+       "Name": "Medium_Room1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Medium_Room1",
+       "GUID": "{71B802A7-03E2-4998-B241-B2B84FE9DDFF}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "2662085913",
+       "Name": "Large_Church1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Large_Church1",
+       "GUID": "{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ],
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
+       "GUID": "{992E8E51-33C6-47B6-95E4-0696B9B0A04E}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System",
+       "GUID": "{C5975CEA-D12D-4391-B806-9B6946F80F42}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Reverb",
+      "GUID": "{3C288454-70F7-4FC9-B82C-E5B69130EB56}"
+     },
+     {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX",
+      "GUID": "{7206C2BB-A450-4B89-BCA4-49A6B6A18D04}",
+      "AuxBusRefs": [
+       {
+        "Id": "1769137926",
+        "Name": "TunnuelReverb",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Reverb\\TunnuelReverb",
+        "GUID": "{C4E3C6FD-EEEB-4313-AECD-D28B07821FA9}"
+       }
+      ]
+     },
+     {
+      "Id": "412724365",
+      "Name": "Bgm",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Bgm",
+      "GUID": "{3B4A99F2-4291-4B82-AEAA-5522921A5935}"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "1769137926",
+      "Name": "TunnuelReverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Reverb\\TunnuelReverb",
+      "GUID": "{C4E3C6FD-EEEB-4313-AECD-D28B07821FA9}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "702543456"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2192967153",
+      "Name": "Room1Reverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Reverb\\Room1Reverb",
+      "GUID": "{1B923D01-11EB-40A1-9F08-30653CEEC7B8}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2662085913"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2460247990",
+      "Name": "Room2Reverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Reverb\\Room2Reverb",
+      "GUID": "{CB158E0D-1F06-4618-88B3-40E083B85A6E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1904434771"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1493153371",
+      "Name": "PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
+      "GUID": "{38A459E8-9ECF-407B-A477-6CEF395CDA6B}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1190009046",
+      "Name": "AreaType",
+      "ObjectPath": "\\States\\Default Work Unit\\AreaType",
+      "GUID": "{6F7EFDB4-4069-410B-A97B-CD5AC5ADFDC0}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaType\\None",
+        "GUID": "{C1EE484F-9FED-4640-A37C-546C64E8FFBB}"
+       },
+       {
+        "Id": "2682142956",
+        "Name": "OnSnowArea",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaType\\OnSnowArea",
+        "GUID": "{4F130BFF-4CAE-40B9-8414-3EFD9E020860}"
+       },
+       {
+        "Id": "3137616467",
+        "Name": "OnInitArea",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaType\\OnInitArea",
+        "GUID": "{B498935F-F640-46E3-A608-D74CE0AD6E2D}"
+       }
+      ]
+     },
+     {
+      "Id": "3400062578",
+      "Name": "Tunnel_Reverb",
+      "ObjectPath": "\\States\\Default Work Unit\\Tunnel_Reverb",
+      "GUID": "{BC67E481-1445-4587-A732-2D31CCC926FD}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Tunnel_Reverb\\None",
+        "GUID": "{9AB9AE31-BF5A-4F1E-898F-769BACAB08AA}"
+       },
+       {
+        "Id": "930712164",
+        "Name": "Off",
+        "ObjectPath": "\\States\\Default Work Unit\\Tunnel_Reverb\\Off",
+        "GUID": "{C7BD39FB-7DA2-4122-8A42-7BABF28CE02B}"
+       },
+       {
+        "Id": "1651971902",
+        "Name": "On",
+        "ObjectPath": "\\States\\Default Work Unit\\Tunnel_Reverb\\On",
+        "GUID": "{BB66F1FB-AA58-48F0-A09C-004D3A135A1F}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "FootSteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootSteps",
+      "GUID": "{DB5BAC1B-4FC5-4A4C-800A-CEED06FF1393}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootSteps\\Concrete",
+        "GUID": "{086AA80E-2162-46D4-A861-A0377810D1E7}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootSteps\\Dirt",
+        "GUID": "{528B2408-0885-4719-8B32-2D3065E9F80E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C6A32FEB-A7FF-29EF-176E-20531605E441}"
+ }
+}

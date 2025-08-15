@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{92393D9E-40F7-4462-8423-21C9B4DF747B}" SchemaVersion="131">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{92393D9E-40F7-4462-8423-21C9B4DF747B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{C211F715-59E8-46C8-9F84-AA30E212107D}" ShortID="243484442">
+					<ChildrenList>
+						<Event Name="Play_FootSteps" ID="{ECCF9B21-84A4-4121-9F13-34F3CB720A58}">
+							<ChildrenList>
+								<Action Name="" ID="{5BF8DE00-9DC7-4576-A3D8-C60E2DBA0953}" ShortID="252590372">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FootSteps" ID="{38C4FA79-0EA2-4611-A071-4D4D1584FAD6}" WorkUnitID="{C83E00C1-A5C2-4B71-9D11-1926F72A00A6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_chickenSound" ID="{C1EA2D33-B369-4A8F-ACFF-AEE6CF8D5B8F}">
+					<ChildrenList>
+						<Action Name="" ID="{11DD7E69-8718-4B93-B4F4-BD536FEDBA76}" ShortID="165779601">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chickenSound" ID="{120FE9E9-81E8-428B-B558-DEC7711A36D2}" WorkUnitID="{C83E00C1-A5C2-4B71-9D11-1926F72A00A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_chickenSound" ID="{5513E789-CE08-42D1-9312-F690E52DEBA1}">
+					<ChildrenList>
+						<Action Name="" ID="{93014DE8-FC38-4ED2-8D23-C7C66AC1A0DC}" ShortID="563606143">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chickenSound" ID="{120FE9E9-81E8-428B-B558-DEC7711A36D2}" WorkUnitID="{C83E00C1-A5C2-4B71-9D11-1926F72A00A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bgm" ID="{FC22524B-9541-4729-A8D3-8380107AD6EA}">
+					<ChildrenList>
+						<Action Name="" ID="{1CBC3B16-3975-43B0-9CDE-93ACFCD747E7}" ShortID="830705175">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SnowBgm" ID="{5F7CF045-CDCD-425A-BC5F-51612F8C1259}" WorkUnitID="{C83E00C1-A5C2-4B71-9D11-1926F72A00A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D46C6CC8-4407-4A2B-90E5-1A1A9510BDA1}" ShortID="841956314">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="initBgm" ID="{BE6CF102-3630-4758-8AF6-5BCAC97EBCD5}" WorkUnitID="{C83E00C1-A5C2-4B71-9D11-1926F72A00A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wind" ID="{ACE52E3B-4A0D-48E4-AD32-A9D30220C6A4}">
+					<ChildrenList>
+						<Action Name="" ID="{AAB60E82-D932-42A1-BBC4-B3702615FB85}" ShortID="40599321">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{540E8954-A8B6-4033-ADE6-2CC46FFAD5A1}" WorkUnitID="{C83E00C1-A5C2-4B71-9D11-1926F72A00A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

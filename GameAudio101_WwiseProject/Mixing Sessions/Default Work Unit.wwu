@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7F42A87D-D919-4084-941E-F07FBD8EED32}" SchemaVersion="131">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{7F42A87D-D919-4084-941E-F07FBD8EED32}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Main Session" ID="{82851F2B-26EE-42E3-AF2F-7E4227100FD2}">
+					<ObjectList>
+						<ObjectRef Name="initBgm" ID="{BE6CF102-3630-4758-8AF6-5BCAC97EBCD5}" WorkUnitID="{C83E00C1-A5C2-4B71-9D11-1926F72A00A6}"/>
+						<ObjectRef Name="SFX" ID="{7206C2BB-A450-4B89-BCA4-49A6B6A18D04}" WorkUnitID="{5BED30DA-F63B-4375-A810-52857B7DC476}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

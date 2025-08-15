@@ -1,0 +1,254 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "168",
+  "SoundBanks": [
+   {
+    "Id": "2880737896",
+    "Type": "User",
+    "GUID": "{21F5E3D5-9D13-4272-8E25-C76F84F52526}",
+    "Language": "SFX",
+    "Hash": "{DE486CC5-9448-378E-DDFB-D4EE642C8360}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainBank",
+    "ShortName": "MainBank",
+    "Path": "MainBank.bnk",
+    "Media": [
+     {
+      "Id": "118530599",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Concrete\\FS_Concrete_02.wav",
+      "CachePath": "58/{58BC8449-1753-A37D-C74F-F2845FE5344F}.wem"
+     },
+     {
+      "Id": "193863770",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "chicken-clucking-amp-flappin-385051.wav",
+      "CachePath": "44/{44B68836-538D-B8A5-C25D-A6DAD5CF2DBC}.wem"
+     },
+     {
+      "Id": "211920601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\FS_Dirt_01.wav",
+      "CachePath": "1C/{1CA064F6-45C3-EF43-E467-43067D06D9E6}.wem"
+     },
+     {
+      "Id": "450115844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Concrete\\FS_Concrete_01.wav",
+      "CachePath": "0B/{0B38BBF2-02F4-F9AD-14F8-F608D283AB3E}.wem"
+     },
+     {
+      "Id": "555457633",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "merner-pop-117203.wav",
+      "CachePath": "0B/{0B0D3828-5759-AA7A-7492-C3F66F02E6B5}.wem"
+     },
+     {
+      "Id": "725473159",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\FS_Dirt_03.wav",
+      "CachePath": "78/{78FD30FA-B1E1-A1A5-772A-EFF804E5B043}.wem"
+     },
+     {
+      "Id": "807425825",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Concrete\\FS_Concrete_03.wav",
+      "CachePath": "15/{15D5E6F6-F966-A50A-48D5-6B01815C9C3B}.wem"
+     },
+     {
+      "Id": "838345311",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps\\Dirt\\FS_Dirt_02.wav",
+      "CachePath": "D4/{D463DF7E-3C99-30C6-77F7-7905460E851C}.wem"
+     },
+     {
+      "Id": "844553357",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "wind-blowing-sfx-12809.wav",
+      "CachePath": "6F/{6FBF7D41-375E-6E7C-28EC-F5F100CA0D0C}.wem"
+     },
+     {
+      "Id": "995157867",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sleep-talking-ogg-68026.wav",
+      "CachePath": "FA/{FA185783-C5D2-F2C2-B3FC-EF9705BC03A0}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "266385284",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\initBgm\\[Effect Slot [0]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{E4E169D9-A55F-4504-A53E-62ABB0179219}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3126765036",
+      "Name": "Play_Bgm",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bgm",
+      "GUID": "{FC22524B-9541-4729-A8D3-8380107AD6EA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "555457633"
+       },
+       {
+        "Id": "995157867"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "266385284"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3806973360",
+      "Name": "Play_chickenSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_chickenSound",
+      "GUID": "{C1EA2D33-B369-4A8F-ACFF-AEE6CF8D5B8F}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "193863770"
+       }
+      ]
+     },
+     {
+      "Id": "3854155799",
+      "Name": "Play_FootSteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_FootSteps",
+      "GUID": "{ECCF9B21-84A4-4121-9F13-34F3CB720A58}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.16356964",
+      "DurationMax": "0.27983665",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "2195636714",
+         "GUID": "{528B2408-0885-4719-8B32-2D3065E9F80E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "211920601"
+         },
+         {
+          "Id": "725473159"
+         },
+         {
+          "Id": "838345311"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "841620460",
+         "GUID": "{086AA80E-2162-46D4-A861-A0377810D1E7}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "118530599"
+         },
+         {
+          "Id": "450115844"
+         },
+         {
+          "Id": "807425825"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1020223172",
+      "Name": "Play_Wind",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wind",
+      "GUID": "{ACE52E3B-4A0D-48E4-AD32-A9D30220C6A4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "844553357"
+       }
+      ]
+     },
+     {
+      "Id": "712816258",
+      "Name": "Stop_chickenSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_chickenSound",
+      "GUID": "{5513E789-CE08-42D1-9312-F690E52DEBA1}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1493153371",
+      "Name": "PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
+      "GUID": "{38A459E8-9ECF-407B-A477-6CEF395CDA6B}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "FootSteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootSteps",
+      "GUID": "{DB5BAC1B-4FC5-4A4C-800A-CEED06FF1393}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootSteps\\Concrete",
+        "GUID": "{086AA80E-2162-46D4-A861-A0377810D1E7}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootSteps\\Dirt",
+        "GUID": "{528B2408-0885-4719-8B32-2D3065E9F80E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2F2CF759-2733-1C85-8D7E-D0E6CCA4DAB1}"
+ }
+}

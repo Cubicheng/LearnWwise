@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B170F9E2-C987-4A2F-B662-29C61813AF6A}" SchemaVersion="131">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{B170F9E2-C987-4A2F-B662-29C61813AF6A}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="AreaType" ID="{6F7EFDB4-4069-410B-A97B-CD5AC5ADFDC0}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{C1EE484F-9FED-4640-A37C-546C64E8FFBB}"/>
+						<State Name="OnSnowArea" ID="{4F130BFF-4CAE-40B9-8414-3EFD9E020860}"/>
+						<State Name="OnInitArea" ID="{B498935F-F640-46E3-A608-D74CE0AD6E2D}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Tunnel_Reverb" ID="{BC67E481-1445-4587-A732-2D31CCC926FD}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{9AB9AE31-BF5A-4F1E-898F-769BACAB08AA}"/>
+						<State Name="On" ID="{BB66F1FB-AA58-48F0-A09C-004D3A135A1F}"/>
+						<State Name="Off" ID="{C7BD39FB-7DA2-4122-8A42-7BABF28CE02B}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

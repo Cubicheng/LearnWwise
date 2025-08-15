@@ -1,0 +1,40 @@
+Event	ID	Name			Wwise Object Path	Notes
+	712816258	Stop_chickenSound			\Default Work Unit\Stop_chickenSound	
+	1020223172	Play_Wind			\Default Work Unit\Play_Wind	
+	3126765036	Play_Bgm			\Default Work Unit\Play_Bgm	
+	3806973360	Play_chickenSound			\Default Work Unit\Play_chickenSound	
+	3854155799	Play_FootSteps			\Default Work Unit\Player\Play_FootSteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	FootSteps			\Default Work Unit\FootSteps	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	FootSteps			
+	2195636714	Dirt	FootSteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1190009046	AreaType			\Default Work Unit\AreaType	
+
+State	ID	Name	State Group			Notes
+	748895195	None	AreaType			
+	2682142956	OnSnowArea	AreaType			
+	3137616467	OnInitArea	AreaType			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1493153371	PlayerSpeed			\Default Work Unit\PlayerSpeed	
+
+Effect plug-ins	ID	Name	Type				Notes
+	266385284	Parametric EQ (Custom)	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	118530599	FS_Concrete_02	D:\UnityProjects\GameAudio101\GameAudio101_WwiseProject\.cache\58\{58BC8449-1753-A37D-C74F-F2845FE5344F}.wem		\Containers\Default Work Unit\FootSteps\Concrete\FS_Concrete_02		18860
+	193863770	chickenSound	D:\UnityProjects\GameAudio101\GameAudio101_WwiseProject\.cache\44\{44B68836-538D-B8A5-C25D-A6DAD5CF2DBC}.wem		\Containers\Default Work Unit\chickenSound		1169180
+	211920601	FS_Dirt_01	D:\UnityProjects\GameAudio101\GameAudio101_WwiseProject\.cache\1C\{1CA064F6-45C3-EF43-E467-43067D06D9E6}.wem		\Containers\Default Work Unit\FootSteps\Dirt\FS_Dirt_01		16358
+	450115844	FS_Concrete_01	D:\UnityProjects\GameAudio101\GameAudio101_WwiseProject\.cache\0B\{0B38BBF2-02F4-F9AD-14F8-F608D283AB3E}.wem		\Containers\Default Work Unit\FootSteps\Concrete\FS_Concrete_01		16290
+	555457633	initBgm	D:\UnityProjects\GameAudio101\GameAudio101_WwiseProject\.cache\0B\{0B0D3828-5759-AA7A-7492-C3F66F02E6B5}.wem		\Containers\Default Work Unit\initBgm		23345992
+	725473159	FS_Dirt_03	D:\UnityProjects\GameAudio101\GameAudio101_WwiseProject\.cache\78\{78FD30FA-B1E1-A1A5-772A-EFF804E5B043}.wem		\Containers\Default Work Unit\FootSteps\Dirt\FS_Dirt_03		20228
+	807425825	FS_Concrete_03	D:\UnityProjects\GameAudio101\GameAudio101_WwiseProject\.cache\15\{15D5E6F6-F966-A50A-48D5-6B01815C9C3B}.wem		\Containers\Default Work Unit\FootSteps\Concrete\FS_Concrete_03		21782
+	838345311	FS_Dirt_02	D:\UnityProjects\GameAudio101\GameAudio101_WwiseProject\.cache\D4\{D463DF7E-3C99-30C6-77F7-7905460E851C}.wem		\Containers\Default Work Unit\FootSteps\Dirt\FS_Dirt_02		22084
+	844553357	Wind	D:\UnityProjects\GameAudio101\GameAudio101_WwiseProject\.cache\6F\{6FBF7D41-375E-6E7C-28EC-F5F100CA0D0C}.wem		\Containers\Default Work Unit\Wind		5229952
+	995157867	SnowBgm	D:\UnityProjects\GameAudio101\GameAudio101_WwiseProject\.cache\FA\{FA185783-C5D2-F2C2-B3FC-EF9705BC03A0}.wem		\Containers\Default Work Unit\SnowBgm		2951072
+

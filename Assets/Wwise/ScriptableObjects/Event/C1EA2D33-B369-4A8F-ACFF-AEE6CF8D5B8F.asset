@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82cc05cf91850ac41812f9510c9be955, type: 3}
+  m_Name: C1EA2D33-B369-4A8F-ACFF-AEE6CF8D5B8F
+  m_EditorClassIdentifier: 
+  objectName: Play_chickenSound
+  id: 3806973360
+  guid: C1EA2D33-B369-4A8F-ACFF-AEE6CF8D5B8F
+  IsInUserDefinedSoundBank: 1

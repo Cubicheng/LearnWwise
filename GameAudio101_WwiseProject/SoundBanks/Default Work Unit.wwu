@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{68CB5F52-AE76-4EAA-A18E-335C3FCD2CB4}" SchemaVersion="131">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{68CB5F52-AE76-4EAA-A18E-335C3FCD2CB4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainBank" ID="{21F5E3D5-9D13-4272-8E25-C76F84F52526}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Wind" ID="{540E8954-A8B6-4033-ADE6-2CC46FFAD5A1}" WorkUnitID="{C83E00C1-A5C2-4B71-9D11-1926F72A00A6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FootSteps" ID="{ECCF9B21-84A4-4121-9F13-34F3CB720A58}" WorkUnitID="{92393D9E-40F7-4462-8423-21C9B4DF747B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_chickenSound" ID="{5513E789-CE08-42D1-9312-F690E52DEBA1}" WorkUnitID="{92393D9E-40F7-4462-8423-21C9B4DF747B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bgm" ID="{FC22524B-9541-4729-A8D3-8380107AD6EA}" WorkUnitID="{92393D9E-40F7-4462-8423-21C9B4DF747B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_chickenSound" ID="{C1EA2D33-B369-4A8F-ACFF-AEE6CF8D5B8F}" WorkUnitID="{92393D9E-40F7-4462-8423-21C9B4DF747B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

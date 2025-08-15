@@ -1,0 +1,1027 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/GameAudio101
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+4990
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/UnityProjects/GameAudio101
+D:/UnityProjects/GameAudio101
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19412]  Target information:
+
+Player connection [19412]  * "[IP] 192.168.213.6 [Port] 0 [Flags] 2 [Guid] 2324765055 [EditorId] 2324765055 [Version] 1048832 [Id] WindowsEditor(7,Cubicheng) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19412] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19412] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 25.88 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/GameAudio101/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 4GB Laptop GPU (ID=0x25ab)
+    Vendor:   NVIDIA
+    VRAM:     3978 MB
+    Driver:   31.0.15.2783
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004340 seconds.
+- Loaded All Assemblies, in  0.440 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.388 seconds
+Domain Reload Profiling: 826ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (152ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (388ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (340ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.118 seconds
+Refreshing native plugins compatible for Editor in 16.14 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 13.93 ms, found 5 plugins.
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.120 seconds
+Domain Reload Profiling: 2227ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (809ms)
+		LoadAssemblies (616ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (223ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1121ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (943ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (194ms)
+			ProcessInitializeOnLoadAttributes (641ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 16.17 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6605 unused Assets / (3.5 MB). Loaded Objects now: 7235.
+Memory consumption went from 167.6 MB to 164.1 MB.
+Total: 10.360500 ms (FindLiveObjects: 0.688100 ms CreateObjectMapping: 0.570700 ms MarkObjects: 6.617200 ms  DeleteObjects: 2.482900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6278.791477 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80f04a1787255eb1aba37cd3056d8888') in 0.2532475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png
+  artifactKey: Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png using Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '620f4ae8b665816bfa83c4399b779f5f') in 0.1115732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Wwise/API/LICENSE.md
+  artifactKey: Guid(ff17901fada93114694e713f46826234) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/LICENSE.md using Guid(ff17901fada93114694e713f46826234) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd06d1911a0f7e10ce5a5828b1e02e103') in 0.0196756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab
+  artifactKey: Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab using Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b9528050aa127dddc3f082bd22b5424') in 0.0481323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
+  artifactKey: Guid(7b846d8f536f007498c941069487ce81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab using Guid(7b846d8f536f007498c941069487ce81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f746f7fc13e0fdaaa99580b522eb7c4') in 0.017988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StarterAssets/Settings/Medium_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(871a00306922d48e1872740163b0d74b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Settings/Medium_PipelineAsset_ForwardRenderer.asset using Guid(871a00306922d48e1872740163b0d74b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1dfffbd67e0d7e7b34397dab9d197af') in 0.0648752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4ef24fc6b58bcf2a78e7b9e87f5ee16') in 0.0149365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb149b8fcaa7069fdc1c447e200f151e') in 0.0170379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab
+  artifactKey: Guid(2d3a85ecde41a8246a79669975912b74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab using Guid(2d3a85ecde41a8246a79669975912b74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acae9cb0a7c9d6516b28b4a782bd359c') in 0.0440358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wwise/MonoBehaviour/README.md
+  artifactKey: Guid(9ef189e884241504387f5cf1716867bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/README.md using Guid(9ef189e884241504387f5cf1716867bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2992c155f2f8908916bb355af8e21e1f') in 0.0141022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
+  artifactKey: Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab using Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e82f858ac3752ff74636f351131357d') in 0.0308586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 107
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9eacd70d05a625bce7e061b681e6fb95') in 0.0395159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Wwise/ScriptableObjects/Windows.asset
+  artifactKey: Guid(62208e2cebb3cc448b237f79840796e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/Windows.asset using Guid(62208e2cebb3cc448b237f79840796e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2abfb009685d00c3443aa861357e064') in 0.0157999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StarterAssets/StarterAssets_Documentation_v1.1.pdf
+  artifactKey: Guid(1030fbd7379311b47bf5b1178c1c7a26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/StarterAssets_Documentation_v1.1.pdf using Guid(1030fbd7379311b47bf5b1178c1c7a26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cdd42797afde1bf2b3a621bb0210f1c') in 0.0127334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6b580e7efb7e075570f0fbe143bdc30') in 0.0125644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe4ae2519d6ce3d39dfc131b37e97617') in 0.0143195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43d7dbcba12a5b0b0d662f5fbbfa33a4') in 0.0141066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.709749 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f806f59f470a767998e259e23709b31e') in 0.2078011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkTriggerBase.cs
+  artifactKey: Guid(610eed028ab4d7b4a87f8c6d4fad0d9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkTriggerBase.cs using Guid(610eed028ab4d7b4a87f8c6d4fad0d9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9646fec61330fead429d874b4e1e7ae') in 0.0142346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkBank.cs
+  artifactKey: Guid(2fcbf80e12ce5204da74e818c314c833) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkBank.cs using Guid(2fcbf80e12ce5204da74e818c314c833) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cfe5d5449521c515651acc28e677dee') in 0.0162733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Wwise/ScriptableObjects/Event/5513E789-CE08-42D1-9312-F690E52DEBA1.asset
+  artifactKey: Guid(d0378513ad0afaf4786435eaf7e6a75b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/Event/5513E789-CE08-42D1-9312-F690E52DEBA1.asset using Guid(d0378513ad0afaf4786435eaf7e6a75b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5369f7205829df6fccd4cd673dca59e0') in 0.0279368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkEnvironmentPortal.cs
+  artifactKey: Guid(02caac21dd2fc5e4c8ff68c32e07de2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkEnvironmentPortal.cs using Guid(02caac21dd2fc5e4c8ff68c32e07de2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aca8fbbace52be025729b82b629a4c0b') in 0.0168316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wwise/MonoBehaviour/Editor/AkBaseInspector.cs
+  artifactKey: Guid(4997bc8353486ee4ebd5aba328792e16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Editor/AkBaseInspector.cs using Guid(4997bc8353486ee4ebd5aba328792e16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1af48a37a1ae3715c90cc15885357189') in 0.0158017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkGameObjEnvironmentData.cs
+  artifactKey: Guid(b78b0eaf526fcd14abd52c3caf0dddce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkGameObjEnvironmentData.cs using Guid(b78b0eaf526fcd14abd52c3caf0dddce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8db141fa78f8065121ff0fefe204b955') in 0.016975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wwise/Timeline/Editor/AK.Wwise.Unity.Timeline.Editor.asmdef
+  artifactKey: Guid(fcb0578a281a0bd48abc9139790ab0a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Timeline/Editor/AK.Wwise.Unity.Timeline.Editor.asmdef using Guid(fcb0578a281a0bd48abc9139790ab0a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bddc21d396eac87e57f8592cf5ccb7d6') in 0.0146059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wwise/API/Editor/WwiseTypes/RTPCDrawer.cs
+  artifactKey: Guid(7935d6f20f342dc4e960db617c76b196) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseTypes/RTPCDrawer.cs using Guid(7935d6f20f342dc4e960db617c76b196) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f5859ba56f7923d5ebed0bc77bab8cc') in 0.0133116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs
+  artifactKey: Guid(448cd6d8e2f2cb04096e777d99974bc4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs using Guid(448cd6d8e2f2cb04096e777d99974bc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbe3806460baf55324b1937293857fbb') in 0.0161343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wwise/Timeline/Runtime/AkTimelineRtpcPlayable.cs
+  artifactKey: Guid(9e18b9cc8385a034c826dc7a4308896a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Timeline/Runtime/AkTimelineRtpcPlayable.cs using Guid(9e18b9cc8385a034c826dc7a4308896a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a59279267edb573133846c2a54ff2eb3') in 0.0163201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Wwise/API/Editor/WwiseTypes/SwitchDrawer.cs
+  artifactKey: Guid(57ad823060657a24387db4adefe0be13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseTypes/SwitchDrawer.cs using Guid(57ad823060657a24387db4adefe0be13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e0d5cc6cee78736545636fb0a5055b0') in 0.016422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkWwiseTrigger.cs
+  artifactKey: Guid(78ac35e12d2f1534ab188840d4294646) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkWwiseTrigger.cs using Guid(78ac35e12d2f1534ab188840d4294646) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4056c44408582b6cfa91f170bf302efe') in 0.0159765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkEnvironment.cs
+  artifactKey: Guid(9cd88ff75f48d8b46a896216ed733ca9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkEnvironment.cs using Guid(9cd88ff75f48d8b46a896216ed733ca9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c541398cd28444a646364887f943e8ed') in 0.0154112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wwise/API/Editor/WwiseTypes/AuxBusDrawer.cs
+  artifactKey: Guid(f24b424af89df754ea4c217ca12f68a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseTypes/AuxBusDrawer.cs using Guid(f24b424af89df754ea4c217ca12f68a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b96d009e32f711c05a4a36f99c3eb1cb') in 0.0160588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wwise/Tools/AddressableInstaller/Editor/AddressableAssetBuilder.cs
+  artifactKey: Guid(c982f94f12e9a95409862ea639a31cdc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Tools/AddressableInstaller/Editor/AddressableAssetBuilder.cs using Guid(c982f94f12e9a95409862ea639a31cdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7c231fb5e0020ba45dad5118925d616') in 0.0157476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/physical_folder_nor.png
+  artifactKey: Guid(cfc8de96bb3a1f845a6dc1144b502a0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/physical_folder_nor.png using Guid(cfc8de96bb3a1f845a6dc1144b502a0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51dce6e34b30843315a5220acf5a3e01') in 0.025699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkTriggerDisable.cs
+  artifactKey: Guid(e02bb35d734af92438716d8ba23a02fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkTriggerDisable.cs using Guid(e02bb35d734af92438716d8ba23a02fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfd35ef8ce4a45819751cfe041c3717c') in 0.0170064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278435 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/Ak3DPositionType.cs
+  artifactKey: Guid(83424aba52679fb44bf473f531c79fd4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/Ak3DPositionType.cs using Guid(83424aba52679fb44bf473f531c79fd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36514374dd4653f0b2a1a31df35be9aa') in 0.0118685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkBankContent.cs
+  artifactKey: Guid(85b5b4affb40cae4796c91dd9e374936) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkBankContent.cs using Guid(85b5b4affb40cae4796c91dd9e374936) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21d3ec8f6f56f2485907bd3fba53a9d2') in 0.0144579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkBankCallbackInfo.cs
+  artifactKey: Guid(4b8532812241e8b46b1c9a5e47d9b846) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkBankCallbackInfo.cs using Guid(4b8532812241e8b46b1c9a5e47d9b846) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52e3f637652cefba7063c4a72e5b0b30') in 0.0144937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkCallbackSerializer.cs
+  artifactKey: Guid(fa6cd8fde0a99484d8b45d47c45a5a22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkCallbackSerializer.cs using Guid(fa6cd8fde0a99484d8b45d47c45a5a22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7feea19dc92c763c5ed5623626094c6e') in 0.015811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.275023 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkChannelOrdering.cs
+  artifactKey: Guid(a36552b9782e04748823d46fd0cea55e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkChannelOrdering.cs using Guid(a36552b9782e04748823d46fd0cea55e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55421d81e0794ab1e9d21deeae8a0a3d') in 0.0149805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkDynamicSequenceOp.cs
+  artifactKey: Guid(288e2a6853184d74f8b5046bbf55d6c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkDynamicSequenceOp.cs using Guid(288e2a6853184d74f8b5046bbf55d6c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c6233036c8ed154ec27eff258cf52b0') in 0.0145703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkInitializationSettings.cs
+  artifactKey: Guid(7d67b66dcd86ec64daad5579356ac352) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkInitializationSettings.cs using Guid(7d67b66dcd86ec64daad5579356ac352) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb03f0278b6d4ccd0a55c96e08b39b8c') in 0.0157193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkDynamicSequenceItemCallbackInfo.cs
+  artifactKey: Guid(1e3a93033d0b8d74a818f637c7cd043d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkDynamicSequenceItemCallbackInfo.cs using Guid(1e3a93033d0b8d74a818f637c7cd043d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9e272da712b536d9d6f0e3a543b8871') in 0.0141652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.263901 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkMarkerCallbackInfo.cs
+  artifactKey: Guid(c93ad38936031354eba1cd9bc3141cd1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMarkerCallbackInfo.cs using Guid(c93ad38936031354eba1cd9bc3141cd1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a70ae6cd060d503238c04d5901c3f2f9') in 0.013466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkMIDIEvent.cs
+  artifactKey: Guid(89c1cafd32e83bd44aad9a885ca220cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMIDIEvent.cs using Guid(89c1cafd32e83bd44aad9a885ca220cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5c19d6dce6b719dbfc5f2f42a514ea8') in 0.014408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkMIDINote.cs
+  artifactKey: Guid(41fb536800a3ef343ba58ee46cc89e63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMIDINote.cs using Guid(41fb536800a3ef343ba58ee46cc89e63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b9f01dcbc2a7de1cccdde31cb4fa007') in 0.0142192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkMonitorErrorLevel.cs
+  artifactKey: Guid(2c90bb9290649ec49bfd18de1f75b458) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMonitorErrorLevel.cs using Guid(2c90bb9290649ec49bfd18de1f75b458) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e78feb5f60b7a26fd87b9d97c9fa31cc') in 0.0156762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278209 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkPanningRule.cs
+  artifactKey: Guid(b622590fb77386f45b3f840584949724) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkPanningRule.cs using Guid(b622590fb77386f45b3f840584949724) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3631e2e44cc2c52e6e0899ac41a517f') in 0.0122062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkSourceSettings.cs
+  artifactKey: Guid(60f3050a8221c574997b971d9a7ae380) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkSourceSettings.cs using Guid(60f3050a8221c574997b971d9a7ae380) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62b9a5729561814f6eebf6d911a1dd89') in 0.012402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkRoomDistanceBehavior.cs
+  artifactKey: Guid(bc9d11c8119f31a4faf091aa53723fe2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkRoomDistanceBehavior.cs using Guid(bc9d11c8119f31a4faf091aa53723fe2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0453befbf67eb0abf910674af6fc18c') in 0.0138147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkSegmentInfo.cs
+  artifactKey: Guid(2b6d02fd378df4343aa2a50212f26d73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkSegmentInfo.cs using Guid(2b6d02fd378df4343aa2a50212f26d73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aea8df45b5813412dbdb2875a83409db') in 0.0157724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.063329 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Common/AkTransmissionOperation.cs
+  artifactKey: Guid(9dc3fe5ca7a347f4d92e1bc41c9c1eea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Common/AkTransmissionOperation.cs using Guid(9dc3fe5ca7a347f4d92e1bc41c9c1eea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1db886e77d7ee6ea569d99b4df3bf0f3') in 0.0162242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Windows/AkUnitySoundEngine_Windows.cs
+  artifactKey: Guid(b947d7d76129af64abbb050a161b43ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Windows/AkUnitySoundEngine_Windows.cs using Guid(b947d7d76129af64abbb050a161b43ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9431561f0621ea53d2716e0f7e46df29') in 0.0139575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Mac/AkUnitySoundEnginePINVOKE_Mac.cs
+  artifactKey: Guid(1022b11d2841aa1429da12a7533d5e1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkUnitySoundEnginePINVOKE_Mac.cs using Guid(1022b11d2841aa1429da12a7533d5e1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b16eebfb491f6c330bf426282215b28') in 0.0137381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Wwise/API/Runtime/Generated/Windows/AkPlatformInitSettings_Windows.cs
+  artifactKey: Guid(7eb348ee539a1f74a824df59ece21cef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Generated/Windows/AkPlatformInitSettings_Windows.cs using Guid(7eb348ee539a1f74a824df59ece21cef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b1f4f6798c049d5daeecfb3e70b2b6a') in 0.0129332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.250549 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Common/AkShowOnlyAttribute.cs
+  artifactKey: Guid(57f36f72adbc68c42878c5ecbc468d56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Common/AkShowOnlyAttribute.cs using Guid(57f36f72adbc68c42878c5ecbc468d56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df2898a90d1592123b9a12c962711e45') in 0.0208294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Mac/AkUnitySoundEngine.cs
+  artifactKey: Guid(c6524b64be254bc4c82e9a831df774f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Mac/AkUnitySoundEngine.cs using Guid(c6524b64be254bc4c82e9a831df774f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5f4bd7e16202795fb42ea057b7aa76a') in 0.0146205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Mac/AkMacBasePathGetter.cs
+  artifactKey: Guid(e8b244e49534da749920d9a9e7e77cb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Mac/AkMacBasePathGetter.cs using Guid(e8b244e49534da749920d9a9e7e77cb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b477630e245b3300a243ea4ca368ff8f') in 0.0192517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/WAAPI/Ak.Wwise.Api.WAAPI.asmdef
+  artifactKey: Guid(4b596319c15a1cd4a9de5a394335aec3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/WAAPI/Ak.Wwise.Api.WAAPI.asmdef using Guid(4b596319c15a1cd4a9de5a394335aec3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3049712a59fc40f482ea76a86510bd0') in 0.0167883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218986 seconds.
+  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseEventReference.cs
+  artifactKey: Guid(82cc05cf91850ac41812f9510c9be955) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseEventReference.cs using Guid(82cc05cf91850ac41812f9510c9be955) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc4a7b7139bc4a33154ccf27248d647f') in 0.0154868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseCallbackFlags.cs
+  artifactKey: Guid(1a03aa92de43a24489aac8e9e80a2e78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseCallbackFlags.cs using Guid(1a03aa92de43a24489aac8e9e80a2e78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '544f711790150cba13c04de744d88f6c') in 0.024067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseTrigger.cs
+  artifactKey: Guid(2361f62f9407fa4459701d1bf298e3ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseTrigger.cs using Guid(2361f62f9407fa4459701d1bf298e3ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc231c1a5607d0fadb95bb41d4110d68') in 0.0161043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseEvent.cs
+  artifactKey: Guid(1d7574b5472c22848bfceb8a0e4b92d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseEvent.cs using Guid(1d7574b5472c22848bfceb8a0e4b92d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f460c281c71bae7319c0fa92712afa4') in 0.0162418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200312 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseAcousticTextureRef.cs
+  artifactKey: Guid(8f13431a682d42343823d8a887be94d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseAcousticTextureRef.cs using Guid(8f13431a682d42343823d8a887be94d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '239d2a4f6a8b75540c45d154262f86cc') in 0.0200246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseProjectDatabase.cs
+  artifactKey: Guid(ecedac3052b344b40adf5c7eb16912bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseProjectDatabase.cs using Guid(ecedac3052b344b40adf5c7eb16912bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0686d79174d6e21de574d8b9367f20f6') in 0.0176065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseEventRefMediaArray.cs
+  artifactKey: Guid(f9113da148c3c7d4b884d3c2d7cbae28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseEventRefMediaArray.cs using Guid(f9113da148c3c7d4b884d3c2d7cbae28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a24ed05c0b219c68ff73c5a541d5d73') in 0.0391722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseProjectDataBasePINVOKE.cs
+  artifactKey: Guid(df639f2a7f27a0a49a63aab175a4c94e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseProjectDataBasePINVOKE.cs using Guid(df639f2a7f27a0a49a63aab175a4c94e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '383e5694a68d9af712448a5d911c19cd') in 0.0201447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110884 seconds.
+  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseTriggerRef.cs
+  artifactKey: Guid(9e2628db6d4cf154bb7808fdd5308ce0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseTriggerRef.cs using Guid(9e2628db6d4cf154bb7808fdd5308ce0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96e01b6efb78c203fc54f7fc6a31041e') in 0.0204725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAuro.bundle
+  artifactKey: Guid(f6ee69534cfd8d8478ec90ab64d3ff7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAuro.bundle using Guid(f6ee69534cfd8d8478ec90ab64d3ff7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec6ab91a506ee2f4e70f3c0c4b344f92') in 0.032752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkDiffractionPathInfoArray.cs
+  artifactKey: Guid(f8839712ca80503418c9ac6edf675d1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkDiffractionPathInfoArray.cs using Guid(f8839712ca80503418c9ac6edf675d1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '930ac2639c5603054d1c98703b1f7b2f') in 0.0215044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkChannelEmitterArray.cs
+  artifactKey: Guid(63bd2cc1567927946a05a05e714e2fce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkChannelEmitterArray.cs using Guid(63bd2cc1567927946a05a05e714e2fce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd51500785579ed0e2d02d22839dd02d') in 0.021722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMcDSP.bundle
+  artifactKey: Guid(dc2f5a7fe27c6cc4980f882a759d46c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMcDSP.bundle using Guid(dc2f5a7fe27c6cc4980f882a759d46c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a316d9f22bb31908a92537d578a27fc4') in 0.0210981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSidechain.dll
+  artifactKey: Guid(f92d578f98f051c44bb14f5b5c2e1e20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSidechain.dll using Guid(f92d578f98f051c44bb14f5b5c2e1e20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd908d74028fb72a340e6ec30e1856d33') in 0.0188375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkMotion.pdb
+  artifactKey: Guid(90a366828cf57664d92c3693eedcd2e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkMotion.pdb using Guid(90a366828cf57664d92c3693eedcd2e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36763e2d58ef7c6f41c5c81b152528a6') in 0.0156748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkMeter.dll
+  artifactKey: Guid(4aaeaaae2954f534a9d59fae3cfc8a7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkMeter.dll using Guid(4aaeaaae2954f534a9d59fae3cfc8a7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '746875c1e329db843a3c8cbadfbecd64') in 0.0371909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057125 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/McDSP.pdb
+  artifactKey: Guid(fb10f260b18b83f4e914190398999908) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/McDSP.pdb using Guid(fb10f260b18b83f4e914190398999908) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '653c0f90b797d89df81b7c396d4f0378') in 0.0207765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkConvolutionReverb.dll
+  artifactKey: Guid(2c3a92a927990d946977c8c68cf1f1bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkConvolutionReverb.dll using Guid(2c3a92a927990d946977c8c68cf1f1bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61fcee657d6208da20d1cb111b8b2200') in 0.0353208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/Auro.dll
+  artifactKey: Guid(edeb6b59b6706f8429fd61de18f975c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/Auro.dll using Guid(edeb6b59b6706f8429fd61de18f975c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db738693dc0d876ad501106c1b4939ea') in 0.0203515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.pdb
+  artifactKey: Guid(4e37a8373674f184990a192cfcc43de9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.pdb using Guid(4e37a8373674f184990a192cfcc43de9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c74722b3567fd3a6d2b5ee03c63e76eb') in 0.0148756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110723 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/iZotope.pdb
+  artifactKey: Guid(e9c07d06145df34439b33b061838c779) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/iZotope.pdb using Guid(e9c07d06145df34439b33b061838c779) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12af040aab8c48456cee386b2e4d1f1f') in 0.022602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkUnitySoundEngine
+  artifactKey: Guid(5cb6ef0bb56c98d42957452076cdd531) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/DWARF/AkUnitySoundEngine using Guid(5cb6ef0bb56c98d42957452076cdd531) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67601259de183bd1dcbcf3c0998c4147') in 0.019422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Mac/Release/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/Relocations/x86_64/AkUnitySoundEngine.yml
+  artifactKey: Guid(59d5114e2bd26fa4c9d702d7bd2ddd75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Release/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/Relocations/x86_64/AkUnitySoundEngine.yml using Guid(59d5114e2bd26fa4c9d702d7bd2ddd75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c38207a3f0cc897f6fb1426705224e21') in 0.0182591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/Relocations/aarch64/AkUnitySoundEngine.yml
+  artifactKey: Guid(49c9701aa4e70254da9c4f04c3ec35c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/Relocations/aarch64/AkUnitySoundEngine.yml using Guid(49c9701aa4e70254da9c4f04c3ec35c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49aab9b679e62c7a2475c49add21017c') in 0.0229841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.115869 seconds.
+  path: Assets/Wwise/API/Runtime/AK.Wwise.Unity.API.asmdef
+  artifactKey: Guid(32d24f8b8978aa74cb8408ecfee87628) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Runtime/AK.Wwise.Unity.API.asmdef using Guid(32d24f8b8978aa74cb8408ecfee87628) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e518a3761917e7993620a07c632b6b3') in 0.0190965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkTriggerMouseExit.cs
+  artifactKey: Guid(fc358c434a59f9e449b4174c9dcfa397) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkTriggerMouseExit.cs using Guid(fc358c434a59f9e449b4174c9dcfa397) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ea3a1eec9195081fb43236436db016d') in 0.0187357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkGameObjListenerList.cs
+  artifactKey: Guid(fc0d27d8cc04add408cc43f4bfd509cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkGameObjListenerList.cs using Guid(fc0d27d8cc04add408cc43f4bfd509cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94540d30feb3ece4475106fee57924b4') in 0.0192117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkTriggerExit.cs
+  artifactKey: Guid(7940ff12067bfb54088671ab5df50f3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkTriggerExit.cs using Guid(7940ff12067bfb54088671ab5df50f3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10a8a6586978a42948afe9ce4ce350d6') in 0.0172567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wwise/MonoBehaviour/Runtime/AkSpatialAudioListener.cs
+  artifactKey: Guid(e86cc39f2bb7060498503509eafa6b1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Runtime/AkSpatialAudioListener.cs using Guid(e86cc39f2bb7060498503509eafa6b1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66c536946c457d8324dfcea6c8151e5d') in 0.0173674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Wwise/MonoBehaviour/Editor/AkWwiseTriggerInspector.cs
+  artifactKey: Guid(af224bd0f9806ba42b997879639cde76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Editor/AkWwiseTriggerInspector.cs using Guid(af224bd0f9806ba42b997879639cde76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0813ae4bdc89ebc8f1d8119ee4c4b6ea') in 0.0185928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Wwise/ScriptableObjects/Event/ECCF9B21-84A4-4121-9F13-34F3CB720A58.asset
+  artifactKey: Guid(0d31fde32e2566a4d8d6c288f4e05c28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/Event/ECCF9B21-84A4-4121-9F13-34F3CB720A58.asset using Guid(0d31fde32e2566a4d8d6c288f4e05c28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61d87ce7d1bc1f850ebd8009846d06c7') in 0.0196411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab
+  artifactKey: Guid(9e55d9b4642484f41be20c69a9b48063) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab using Guid(9e55d9b4642484f41be20c69a9b48063) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bfa89218b05e2d7e0c815b54e7cf288') in 0.0885419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Wwise/Timeline/Runtime/AkTimelineEventPlayable.cs
+  artifactKey: Guid(ba312eb7348f47e429050d192b183373) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Timeline/Runtime/AkTimelineEventPlayable.cs using Guid(ba312eb7348f47e429050d192b183373) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc471ba45831c162724fd27a25dc88ec') in 0.0191796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Wwise/Timeline/Editor/AkEventPlayableInspector.cs
+  artifactKey: Guid(9e100f3919540d740a7f4b7468711c59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Timeline/Editor/AkEventPlayableInspector.cs using Guid(9e100f3919540d740a7f4b7468711c59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1f42f4c8c642ac5ac144cd60cab87af') in 0.0184765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Joystick.prefab
+  artifactKey: Guid(6eb08bfc0fd869c47b796c42ada099da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Joystick.prefab using Guid(6eb08bfc0fd869c47b796c42ada099da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a19a2f959b64fbeaea3ac0cafef98f5d') in 0.0319691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/state_nor.png
+  artifactKey: Guid(9789c5d7f7160ca4987a18bbbd85e0c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/state_nor.png using Guid(9789c5d7f7160ca4987a18bbbd85e0c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97ee8ba203e9a7dc2f4474c838b96ad7') in 0.0261341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wwise/API/Editor/WwiseMenu/Mac/AkWwiseMenu_Mac.cs
+  artifactKey: Guid(e6501079caecd4c428d873906bd30585) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseMenu/Mac/AkWwiseMenu_Mac.cs using Guid(e6501079caecd4c428d873906bd30585) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2e65f84f66b5f78bdd0d76a7095cb49') in 0.0135553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Wwise/Documentation/Windows/ko/WwiseUnityIntegrationHelp_ko.chm
+  artifactKey: Guid(c47a2bcca88e0124e999828b2ed20ddc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Documentation/Windows/ko/WwiseUnityIntegrationHelp_ko.chm using Guid(c47a2bcca88e0124e999828b2ed20ddc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88dfd79d89250f3ea9f42e030c82e96b') in 0.0158351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Wwise/API/Editor/PluginActivator/Mac/AkMacPluginActivator.cs
+  artifactKey: Guid(1b6b91fa54bf1834a95cb541e897cc3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/PluginActivator/Mac/AkMacPluginActivator.cs using Guid(1b6b91fa54bf1834a95cb541e897cc3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64f631d74292c0a48ff74524d74e5813') in 0.0176776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/wproj.png
+  artifactKey: Guid(f8827146c788dc947a615082dae80666) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/wproj.png using Guid(f8827146c788dc947a615082dae80666) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75042c35cbe426ef031f35be413e9390') in 0.0324972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wwise/Tools/AddressableInstaller/Editor/AK.Wwise.Unity.AddressableInstaller.asmdef
+  artifactKey: Guid(081b81b9d184f8546a3a32e343fa8549) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/Tools/AddressableInstaller/Editor/AK.Wwise.Unity.AddressableInstaller.asmdef using Guid(081b81b9d184f8546a3a32e343fa8549) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '800e72c5703faf25268d6e5a2c5618ce') in 0.0166275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwisePostImportCallbackSetup.cs
+  artifactKey: Guid(6afc03d6f2886bb4f8dd21c3cecb6ac3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwisePostImportCallbackSetup.cs using Guid(6afc03d6f2886bb4f8dd21c3cecb6ac3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f5bda32072f0662e92adf59ab646ed8') in 0.0178978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs
+  artifactKey: Guid(65870f34fef70aa44b0f562cfc810220) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs using Guid(65870f34fef70aa44b0f562cfc810220) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de3ffa1378d598199802a9d109a81df4') in 0.0171024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/EventSystem/UI_EventSystem.prefab
+  artifactKey: Guid(f0271df749728104eac22c3d897fd8ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StarterAssets/Mobile/Prefabs/EventSystem/UI_EventSystem.prefab using Guid(f0271df749728104eac22c3d897fd8ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39659d39d4da28955715fefd41dd95e2') in 0.030801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
